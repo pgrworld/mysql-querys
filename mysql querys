@@ -1,0 +1,75 @@
+//mysql querys
+1. if we want to create a database 
+   create database database_name;
+   EX: create database MYDB1;
+   
+   
+2.if we want to see the created database
+    show databases;
+    EX:show databases;
+    
+3.if we want to create a table in the required database
+    use database_name;
+    EX: use MYDB1;
+        create table table_name( );
+    EX: create table persons(id int, name varchar(255) );
+    
+4.if we want to see created table in the database;
+    show tables;
+    EX: show tables;
+  if we want to see table in the field format;
+       table table_name;
+    EX: describe persons; 
+    
+    
+5. if we want to delete database
+   drop database_name;
+   EX: drop MYDB1;
+   
+   
+6. if we want to delete table from the database
+     use database_name;
+     drop tablename;
+     EX: drop persons;
+     
+     
+7. if we want to insert data into table
+    insert into table_name()
+    value();
+    EX: insert into persons(id, name)
+        value(156, "gowrav rahul");
+        
+8. if we want to delete data from the table
+   delete from table_name where condition
+   EX: delete from persons where name = "gowrav rahul";
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+   
