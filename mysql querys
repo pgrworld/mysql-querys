@@ -43,6 +43,37 @@
    delete from table_name where condition
    EX: delete from persons where name = "gowrav rahul";
    
+9. if we want to retrieve a single column of data from the database
+   select *from table_name where condition //required column 
+   EX:select *from persons where name  = "gowrav rahul";
+   
+10.if we want to retrieve the data when 2conditions will be satisfied
+   select *from table_name where condition and condition 
+   EX: select *from persons where name!="gowrav rahul" and id=156;
+   
+11.if we want to retrieve the data when the condition is satisfied
+   select *from table_name where condition like "required_condtion";
+   EX: select *from persons where name like"go%";
+   
+   
+12.if we want to delete row from the database 
+    delete from table_name where condition
+   EX: delete from persons where id = 156;
+   
+   
+13.if we want to delete the column from the database
+   alter table table_name drop column column_name
+   EX: alter table persons drop column name;
+   
+   
+14.if we want to count rows in the database
+   select count(*)from table_name
+   EX:select count(*)from persons;
+   
+   
+   
+   
+   
    
     
     
