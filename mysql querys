@@ -70,6 +70,23 @@
    select count(*)from table_name
    EX:select count(*)from persons;
    
+15.if we want to updata the data in the database
+   update table_name set column_name = "required data" where condition
+   EX: update persons set name = "pentakota rahul"  where id = 156;
+   
+   //select distinct //it avoids duplicates from the column
+16.if we want to retrieve only once existing data in the column 
+   select distinct column_name from table_name
+   EX: select distinct name from persons;
+   
+17.and , or ,  not operators
+  //not 
+  select *from data where not name = "pakistan";
+  
+  
+18.  
+
+   
    
    
    
