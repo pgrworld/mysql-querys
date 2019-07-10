@@ -84,7 +84,20 @@
   select *from data where not name = "pakistan";
   
   
-18.  
+18.//order by assc = low to high and desc = high to low
+  if we want to sort the data either asscending or descending
+  select *from table_name order by required column_name
+  EX: select *from persons order by name;
+  // If we want to sorting multiple columns 
+  EX: select *from persons order by name, id,;
+  //If we want to sorting descending order
+  EX: select *from persons order by name desc;
+  
+  
+  
+19.  
+  
+  
 
    
    
