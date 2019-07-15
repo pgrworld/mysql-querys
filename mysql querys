@@ -95,7 +95,18 @@
   
   
   
-19.  
+19. // union   //if we want to combine two or more results sets 
+ EX: select *from data
+     union 
+     select *from data1; //but same no.of columns will be there in two tables;
+// Note:The UNION operator selects only distinct values by default. To allow duplicate values, use UNION ALL
+
+
+20.//insert into select 
+  //if we want to put one table data into into table
+  EX: insert into table_2
+      select *from table_1;
+      
   
   
 
