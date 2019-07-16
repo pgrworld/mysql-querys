@@ -106,6 +106,12 @@
   //if we want to put one table data into into table
   EX: insert into table_2
       select *from table_1;
+
+
+21. // in operator
+    // if we want to retrieve some required rows of data 
+    // select *from table_name where column_name in (required data names);
+    EX: select *from persons where name in ("rahul", "gowrav");
       
 MYSQL FUNCTIONS:
 1. CHAR_LENGTH
