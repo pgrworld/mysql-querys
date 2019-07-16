@@ -107,6 +107,12 @@
   EX: insert into table_2
       select *from table_1;
       
+MYSQL FUNCTIONS:
+1. CHAR_LENGTH
+  EX: select char_length("gowrav rahul) as lengthOfString;
+  EX: select char_length(name) as lengthOfname from mydata(tablename);
+  
+      
   
   
 
