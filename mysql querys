@@ -112,6 +112,10 @@
     // if we want to retrieve some required rows of data 
     // select *from table_name where column_name in (required data names);
     EX: select *from persons where name in ("rahul", "gowrav");
+    
+22. //Truncate
+    //It is used for clear the data in the table or database
+    EX: truncate table_name (or) truncate database_name
       
 MYSQL FUNCTIONS:
 1. CHAR_LENGTH
