@@ -126,7 +126,10 @@ MYSQL FUNCTIONS:
   //If we want to get the today date 
  
 3.select current_timestamp();
-// If we want to get todau date with time
+// If we want to get today date with time
+
+4.select date(2017-06-06);
+// If we want to retrieve the data at that date from the table
 
 
 
