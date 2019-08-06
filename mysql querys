@@ -122,6 +122,15 @@ MYSQL FUNCTIONS:
   EX: select char_length("gowrav rahul) as lengthOfString;
   EX: select char_length(name) as lengthOfname from mydata(tablename);
   
+2. SELECT CURRENT_DATE();  (or) select curdate();
+  //If we want to get the today date 
+ 
+3.select current_timestamp();
+// If we want to get todau date with time
+
+
+
+  
       
   
   
