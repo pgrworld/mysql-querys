@@ -131,6 +131,11 @@ MYSQL FUNCTIONS:
 4.select date(2017-06-06);
 // If we want to retrieve the data at that date from the table
 
+5.select date_add("2017-01-23", interval 10 day);
+//If we want to add 10 days from the mention date
+
+6.select dayname("1992-09-12");
+//If we want to know the dayname in the mention date
 
 
   
