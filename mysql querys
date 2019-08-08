@@ -137,6 +137,11 @@ MYSQL FUNCTIONS:
 6.select dayname("1992-09-12");
 //If we want to know the dayname in the mention date
 
+7.select now();
+//If we want to get current date and time 
+
+8.
+
 
   
       
