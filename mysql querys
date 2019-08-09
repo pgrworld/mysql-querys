@@ -140,7 +140,15 @@ MYSQL FUNCTIONS:
 7.select now();
 //If we want to get current date and time 
 
-8.
+8.select char_length("hello world") as lengthofstring;
+//If we want to find the length of the string
+
+9.select concat("gowrav" " " "rahul") as concatenatedstring;
+//If we want to add two more strings 
+
+10.select field(finding_value, value1, value2, value3, value4, value5);
+  EX: select field(4, 3,4,5,6,7,8,9); =>o/p is 2
+  //If we want to find the index position
 
 
   
