@@ -18,3 +18,7 @@ EX: show collections
 //.5 if we want to drop collections in the database
 EX: db.collection_name.drop()
     db.mycollection.mydb()
+
+//.6 if we want to retrieve the data from the collection
+EX: db.collection_name.find()
+    db.mycollection.find()
