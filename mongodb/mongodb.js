@@ -29,4 +29,7 @@ EX: db
 //.8 if we want to insert the data into collection 
 EX: db.collection_name.insert({"name": "gowrav rahul"})
 
+//.9 if we want to update the data into the collection
+EX: db.mycollection.update({name:"gowrav"},{$set:{name:"rahul"}})
+
 
