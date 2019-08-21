@@ -22,3 +22,11 @@ EX: db.collection_name.drop()
 //.6 if we want to retrieve the data from the collection
 EX: db.collection_name.find()
     db.mycollection.find()
+
+//.7 if we want to know the selected database 
+EX: db   
+
+//.8 if we want to insert the data into collection 
+EX: db.collection_name.insert({"name": "gowrav rahul"})
+
+
