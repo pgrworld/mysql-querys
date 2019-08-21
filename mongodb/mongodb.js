@@ -32,4 +32,7 @@ EX: db.collection_name.insert({"name": "gowrav rahul"})
 //.9 if we want to update the data into the collection
 EX: db.mycollection.update({name:"gowrav"},{$set:{name:"rahul"}})
 
-
+//.10 if we want to remove the documents from the collection
+EX: db.mycollection.remove({}) --> it equal to truncate in mysql that means all documents will be deleted
+EX: db.mycollection.remove({name:"rahul"})  --> it will delete all named matched conditions
+EX: db.mycollection.remove({name:"rahul},1)  --> it will delete only first document at mateched condition
