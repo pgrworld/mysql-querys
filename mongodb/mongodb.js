@@ -39,7 +39,7 @@ EX: db.mycollection.remove({name:"rahul},1)  --> it will delete only first docum
                             
 //.11 if we want to retrieve only required documents from the collections
 EX: db.mycollection.find({},{required_dodument name:1})
-EX: db.mycollection.find({},{name:1})
+EX: db.mycollection.find({rahul:1})
 
 //.12 if we want to retrieve only limited documents
 EX: db.mycollection.find().limit(4)   ==> we can retrieve only 4 documents
