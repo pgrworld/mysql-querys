@@ -44,6 +44,15 @@ EX: db.mycollection.find({rahul:1})
 //.12 if we want to retrieve only limited documents
 EX: db.mycollection.find().limit(4)   ==> we can retrieve only 4 documents
 
+//.13 if we want to sorting the documents if ass or des
+EX: db.mycollection.find().sort({name:1})     //here name is the key_name whatever it maybe
+
+
+//.14 if we want to assign the index to the documents in the collection
+EX: db.mycollection.ensureIndex({name:1})    //here name is the key name
+
+
+
 
    
 
