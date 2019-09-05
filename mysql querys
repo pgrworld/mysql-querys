@@ -23,8 +23,8 @@
     
     
 5. if we want to delete database
-   drop database_name;
-   EX: drop MYDB1;
+   drop database database_name;
+   EX: drop database MYDB1;
    
    
 6. if we want to delete table from the database
