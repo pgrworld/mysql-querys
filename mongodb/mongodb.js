@@ -1,4 +1,5 @@
 //monogdb concepts
+// For installiong mongodb in ubuntu:    https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/
 
 //.1 if we want to create a database 
 EX: USE database_name
